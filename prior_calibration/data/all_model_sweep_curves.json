@@ -1,0 +1,1485 @@
+{
+  "metric": "unit_aware",
+  "range": [
+    0.4,
+    1.2
+  ],
+  "curves": [
+    {
+      "key": "llama32_1b",
+      "label": "Llama 3.2 1B Instruct",
+      "size_b": 1,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/llama32_1b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 859,
+          "difference": 0.0078125,
+          "corrected": 180,
+          "broken": 168
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 848,
+          "difference": 0.0006510416666666666,
+          "corrected": 165,
+          "broken": 164
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 866,
+          "difference": 0.012369791666666666,
+          "corrected": 170,
+          "broken": 151
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 854,
+          "difference": 0.004557291666666667,
+          "corrected": 157,
+          "broken": 150
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 858,
+          "difference": 0.007161458333333333,
+          "corrected": 151,
+          "broken": 140
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 870,
+          "difference": 0.014973958333333334,
+          "corrected": 147,
+          "broken": 124
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 862,
+          "difference": 0.009765625,
+          "corrected": 132,
+          "broken": 117
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 871,
+          "difference": 0.015625,
+          "corrected": 127,
+          "broken": 103
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 859,
+          "difference": 0.0078125,
+          "corrected": 109,
+          "broken": 97
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 856,
+          "difference": 0.005859375,
+          "corrected": 87,
+          "broken": 78
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 860,
+          "difference": 0.008463541666666666,
+          "corrected": 73,
+          "broken": 60
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 869,
+          "difference": 0.014322916666666666,
+          "corrected": 54,
+          "broken": 32
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 847,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 844,
+          "difference": -0.001953125,
+          "corrected": 44,
+          "broken": 47
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 853,
+          "difference": 0.00390625,
+          "corrected": 72,
+          "broken": 66
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 823,
+          "difference": -0.015625,
+          "corrected": 76,
+          "broken": 100
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 847,
+          "tuned_correct": 816,
+          "difference": -0.020182291666666668,
+          "corrected": 90,
+          "broken": 121
+        }
+      ]
+    },
+    {
+      "key": "llama32_3b",
+      "label": "Llama 3.2 3B Instruct",
+      "size_b": 3,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "equalized_3b_1536_v1"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1367,
+          "difference": 0.013020833333333334,
+          "corrected": 69,
+          "broken": 49
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1365,
+          "difference": 0.01171875,
+          "corrected": 72,
+          "broken": 54
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1347,
+          "difference": 0.0,
+          "corrected": 66,
+          "broken": 66
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1367,
+          "difference": 0.013020833333333334,
+          "corrected": 66,
+          "broken": 46
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1369,
+          "difference": 0.014322916666666666,
+          "corrected": 66,
+          "broken": 44
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1374,
+          "difference": 0.017578125,
+          "corrected": 66,
+          "broken": 39
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1359,
+          "difference": 0.0078125,
+          "corrected": 56,
+          "broken": 44
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1356,
+          "difference": 0.005859375,
+          "corrected": 54,
+          "broken": 45
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1348,
+          "difference": 0.0006510416666666666,
+          "corrected": 45,
+          "broken": 44
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1347,
+          "difference": 0.0,
+          "corrected": 36,
+          "broken": 36
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1352,
+          "difference": 0.0032552083333333335,
+          "corrected": 30,
+          "broken": 25
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1341,
+          "difference": -0.00390625,
+          "corrected": 15,
+          "broken": 21
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1347,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1341,
+          "difference": -0.00390625,
+          "corrected": 16,
+          "broken": 22
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1330,
+          "difference": -0.011067708333333334,
+          "corrected": 23,
+          "broken": 40
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1342,
+          "difference": -0.0032552083333333335,
+          "corrected": 37,
+          "broken": 42
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1347,
+          "tuned_correct": 1332,
+          "difference": -0.009765625,
+          "corrected": 43,
+          "broken": 58
+        }
+      ]
+    },
+    {
+      "key": "qwen_math_1p5b",
+      "label": "Qwen 2.5 Math 1.5B",
+      "size_b": 1.5,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/qwen_math_1p5b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1216,
+          "difference": -0.035807291666666664,
+          "corrected": 79,
+          "broken": 134
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1235,
+          "difference": -0.0234375,
+          "corrected": 82,
+          "broken": 118
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1259,
+          "difference": -0.0078125,
+          "corrected": 83,
+          "broken": 95
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1267,
+          "difference": -0.0026041666666666665,
+          "corrected": 81,
+          "broken": 85
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1274,
+          "difference": 0.001953125,
+          "corrected": 74,
+          "broken": 71
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1280,
+          "difference": 0.005859375,
+          "corrected": 74,
+          "broken": 65
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1278,
+          "difference": 0.004557291666666667,
+          "corrected": 69,
+          "broken": 62
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1273,
+          "difference": 0.0013020833333333333,
+          "corrected": 63,
+          "broken": 61
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1276,
+          "difference": 0.0032552083333333335,
+          "corrected": 58,
+          "broken": 53
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1285,
+          "difference": 0.009114583333333334,
+          "corrected": 58,
+          "broken": 44
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1280,
+          "difference": 0.005859375,
+          "corrected": 46,
+          "broken": 37
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1261,
+          "difference": -0.006510416666666667,
+          "corrected": 24,
+          "broken": 34
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1271,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1271,
+          "difference": 0.0,
+          "corrected": 36,
+          "broken": 36
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1254,
+          "difference": -0.011067708333333334,
+          "corrected": 46,
+          "broken": 63
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1252,
+          "difference": -0.012369791666666666,
+          "corrected": 56,
+          "broken": 75
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1271,
+          "tuned_correct": 1245,
+          "difference": -0.016927083333333332,
+          "corrected": 61,
+          "broken": 87
+        }
+      ]
+    },
+    {
+      "key": "qwen_r1_1p5b",
+      "label": "DeepSeek-R1 Qwen 1.5B",
+      "size_b": 1.5,
+      "n": 1536,
+      "partial": true,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/qwen_r1_1p5b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 813,
+          "difference": -0.13802083333333334,
+          "corrected": 135,
+          "broken": 347
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 856,
+          "difference": -0.11002604166666667,
+          "corrected": 138,
+          "broken": 307
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 908,
+          "difference": -0.076171875,
+          "corrected": 147,
+          "broken": 264
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 913,
+          "difference": -0.07291666666666667,
+          "corrected": 146,
+          "broken": 258
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 971,
+          "difference": -0.03515625,
+          "corrected": 157,
+          "broken": 211
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 978,
+          "difference": -0.030598958333333332,
+          "corrected": 139,
+          "broken": 186
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 977,
+          "difference": -0.03125,
+          "corrected": 136,
+          "broken": 184
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1017,
+          "difference": -0.005208333333333333,
+          "corrected": 158,
+          "broken": 166
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1007,
+          "difference": -0.01171875,
+          "corrected": 135,
+          "broken": 153
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1009,
+          "difference": -0.010416666666666666,
+          "corrected": 124,
+          "broken": 140
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1011,
+          "difference": -0.009114583333333334,
+          "corrected": 93,
+          "broken": 107
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1025,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1022,
+          "difference": -0.001953125,
+          "corrected": 94,
+          "broken": 97
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1024,
+          "difference": -0.0006510416666666666,
+          "corrected": 122,
+          "broken": 123
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 1014,
+          "difference": -0.007161458333333333,
+          "corrected": 124,
+          "broken": 135
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1025,
+          "tuned_correct": 998,
+          "difference": -0.017578125,
+          "corrected": 126,
+          "broken": 153
+        }
+      ]
+    },
+    {
+      "key": "qwen_1p5b",
+      "label": "Qwen 2.5 1.5B Instruct",
+      "size_b": 1.5,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/qwen_1p5b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 745,
+          "difference": -0.2688802083333333,
+          "corrected": 84,
+          "broken": 497
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 813,
+          "difference": -0.224609375,
+          "corrected": 93,
+          "broken": 438
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 910,
+          "difference": -0.16145833333333334,
+          "corrected": 121,
+          "broken": 369
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 981,
+          "difference": -0.115234375,
+          "corrected": 118,
+          "broken": 295
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1031,
+          "difference": -0.08268229166666667,
+          "corrected": 125,
+          "broken": 252
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1080,
+          "difference": -0.05078125,
+          "corrected": 126,
+          "broken": 204
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1116,
+          "difference": -0.02734375,
+          "corrected": 133,
+          "broken": 175
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1132,
+          "difference": -0.016927083333333332,
+          "corrected": 134,
+          "broken": 160
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1145,
+          "difference": -0.008463541666666666,
+          "corrected": 126,
+          "broken": 139
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1168,
+          "difference": 0.006510416666666667,
+          "corrected": 117,
+          "broken": 107
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1169,
+          "difference": 0.007161458333333333,
+          "corrected": 105,
+          "broken": 94
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1163,
+          "difference": 0.0032552083333333335,
+          "corrected": 77,
+          "broken": 72
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1158,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1173,
+          "difference": 0.009765625,
+          "corrected": 74,
+          "broken": 59
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1171,
+          "difference": 0.008463541666666666,
+          "corrected": 97,
+          "broken": 84
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1176,
+          "difference": 0.01171875,
+          "corrected": 118,
+          "broken": 100
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1158,
+          "tuned_correct": 1161,
+          "difference": 0.001953125,
+          "corrected": 121,
+          "broken": 118
+        }
+      ]
+    },
+    {
+      "key": "gemma3_1b",
+      "label": "Gemma 3 1B IT",
+      "size_b": 1,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/gemma3_1b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 640,
+          "difference": -0.012369791666666666,
+          "corrected": 90,
+          "broken": 109
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 638,
+          "difference": -0.013671875,
+          "corrected": 81,
+          "broken": 102
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 653,
+          "difference": -0.00390625,
+          "corrected": 83,
+          "broken": 89
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 646,
+          "difference": -0.008463541666666666,
+          "corrected": 76,
+          "broken": 89
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 640,
+          "difference": -0.012369791666666666,
+          "corrected": 71,
+          "broken": 90
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 639,
+          "difference": -0.013020833333333334,
+          "corrected": 66,
+          "broken": 86
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 643,
+          "difference": -0.010416666666666666,
+          "corrected": 60,
+          "broken": 76
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 656,
+          "difference": -0.001953125,
+          "corrected": 59,
+          "broken": 62
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 649,
+          "difference": -0.006510416666666667,
+          "corrected": 44,
+          "broken": 54
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 654,
+          "difference": -0.0032552083333333335,
+          "corrected": 43,
+          "broken": 48
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 644,
+          "difference": -0.009765625,
+          "corrected": 27,
+          "broken": 42
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 649,
+          "difference": -0.006510416666666667,
+          "corrected": 22,
+          "broken": 32
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 659,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 658,
+          "difference": -0.0006510416666666666,
+          "corrected": 30,
+          "broken": 31
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 659,
+          "difference": 0.0,
+          "corrected": 36,
+          "broken": 36
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 660,
+          "difference": 0.0006510416666666666,
+          "corrected": 49,
+          "broken": 48
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 659,
+          "tuned_correct": 652,
+          "difference": -0.004557291666666667,
+          "corrected": 45,
+          "broken": 52
+        }
+      ]
+    },
+    {
+      "key": "qwen_3b",
+      "label": "Qwen 2.5 3B Instruct",
+      "size_b": 3,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/qwen_3b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1394,
+          "difference": -0.013020833333333334,
+          "corrected": 49,
+          "broken": 69
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1401,
+          "difference": -0.008463541666666666,
+          "corrected": 50,
+          "broken": 63
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1402,
+          "difference": -0.0078125,
+          "corrected": 47,
+          "broken": 59
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1403,
+          "difference": -0.007161458333333333,
+          "corrected": 50,
+          "broken": 61
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1414,
+          "difference": 0.0,
+          "corrected": 51,
+          "broken": 51
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1413,
+          "difference": -0.0006510416666666666,
+          "corrected": 49,
+          "broken": 50
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1413,
+          "difference": -0.0006510416666666666,
+          "corrected": 46,
+          "broken": 47
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1410,
+          "difference": -0.0026041666666666665,
+          "corrected": 47,
+          "broken": 51
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1412,
+          "difference": -0.0013020833333333333,
+          "corrected": 46,
+          "broken": 48
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1408,
+          "difference": -0.00390625,
+          "corrected": 39,
+          "broken": 45
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1410,
+          "difference": -0.0026041666666666665,
+          "corrected": 35,
+          "broken": 39
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1415,
+          "difference": 0.0006510416666666666,
+          "corrected": 27,
+          "broken": 26
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1414,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1410,
+          "difference": -0.0026041666666666665,
+          "corrected": 24,
+          "broken": 28
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1402,
+          "difference": -0.0078125,
+          "corrected": 26,
+          "broken": 38
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1392,
+          "difference": -0.014322916666666666,
+          "corrected": 32,
+          "broken": 54
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1414,
+          "tuned_correct": 1389,
+          "difference": -0.016276041666666668,
+          "corrected": 32,
+          "broken": 57
+        }
+      ]
+    },
+    {
+      "key": "gemma3_4b",
+      "label": "Gemma 3 4B IT",
+      "size_b": 4,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/gemma3_4b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1307,
+          "difference": -0.005208333333333333,
+          "corrected": 50,
+          "broken": 58
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1310,
+          "difference": -0.0032552083333333335,
+          "corrected": 44,
+          "broken": 49
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1312,
+          "difference": -0.001953125,
+          "corrected": 43,
+          "broken": 46
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1314,
+          "difference": -0.0006510416666666666,
+          "corrected": 43,
+          "broken": 44
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1311,
+          "difference": -0.0026041666666666665,
+          "corrected": 40,
+          "broken": 44
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1315,
+          "difference": 0.0,
+          "corrected": 39,
+          "broken": 39
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1312,
+          "difference": -0.001953125,
+          "corrected": 39,
+          "broken": 42
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1313,
+          "difference": -0.0013020833333333333,
+          "corrected": 31,
+          "broken": 33
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1316,
+          "difference": 0.0006510416666666666,
+          "corrected": 28,
+          "broken": 27
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1319,
+          "difference": 0.0026041666666666665,
+          "corrected": 27,
+          "broken": 23
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1319,
+          "difference": 0.0026041666666666665,
+          "corrected": 25,
+          "broken": 21
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1318,
+          "difference": 0.001953125,
+          "corrected": 19,
+          "broken": 16
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1315,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1316,
+          "difference": 0.0006510416666666666,
+          "corrected": 16,
+          "broken": 15
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1319,
+          "difference": 0.0026041666666666665,
+          "corrected": 21,
+          "broken": 17
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1320,
+          "difference": 0.0032552083333333335,
+          "corrected": 22,
+          "broken": 17
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1315,
+          "tuned_correct": 1317,
+          "difference": 0.0013020833333333333,
+          "corrected": 25,
+          "broken": 23
+        }
+      ]
+    },
+    {
+      "key": "llama31_8b",
+      "label": "Llama 3.1 8B Instruct",
+      "size_b": 8,
+      "n": 1536,
+      "partial": false,
+      "source_paths": [
+        "multimodel_gsm8k_1536_v1/llama31_8b/calibration1536"
+      ],
+      "settings": [
+        {
+          "alpha": 0.4,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1423,
+          "difference": 0.007161458333333333,
+          "corrected": 47,
+          "broken": 36
+        },
+        {
+          "alpha": 0.45,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1419,
+          "difference": 0.004557291666666667,
+          "corrected": 48,
+          "broken": 41
+        },
+        {
+          "alpha": 0.5,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1411,
+          "difference": -0.0006510416666666666,
+          "corrected": 39,
+          "broken": 40
+        },
+        {
+          "alpha": 0.55,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1404,
+          "difference": -0.005208333333333333,
+          "corrected": 33,
+          "broken": 41
+        },
+        {
+          "alpha": 0.6,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1412,
+          "difference": 0.0,
+          "corrected": 34,
+          "broken": 34
+        },
+        {
+          "alpha": 0.65,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1413,
+          "difference": 0.0006510416666666666,
+          "corrected": 34,
+          "broken": 33
+        },
+        {
+          "alpha": 0.7,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1409,
+          "difference": -0.001953125,
+          "corrected": 28,
+          "broken": 31
+        },
+        {
+          "alpha": 0.75,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1410,
+          "difference": -0.0013020833333333333,
+          "corrected": 27,
+          "broken": 29
+        },
+        {
+          "alpha": 0.8,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1413,
+          "difference": 0.0006510416666666666,
+          "corrected": 21,
+          "broken": 20
+        },
+        {
+          "alpha": 0.85,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1411,
+          "difference": -0.0006510416666666666,
+          "corrected": 21,
+          "broken": 22
+        },
+        {
+          "alpha": 0.9,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1413,
+          "difference": 0.0006510416666666666,
+          "corrected": 17,
+          "broken": 16
+        },
+        {
+          "alpha": 0.95,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1408,
+          "difference": -0.0026041666666666665,
+          "corrected": 11,
+          "broken": 15
+        },
+        {
+          "alpha": 1.0,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1412,
+          "difference": 0.0,
+          "corrected": 0,
+          "broken": 0
+        },
+        {
+          "alpha": 1.05,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1416,
+          "difference": 0.0026041666666666665,
+          "corrected": 14,
+          "broken": 10
+        },
+        {
+          "alpha": 1.1,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1413,
+          "difference": 0.0006510416666666666,
+          "corrected": 16,
+          "broken": 15
+        },
+        {
+          "alpha": 1.15,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1408,
+          "difference": -0.0026041666666666665,
+          "corrected": 21,
+          "broken": 25
+        },
+        {
+          "alpha": 1.2,
+          "n": 1536,
+          "baseline_correct": 1412,
+          "tuned_correct": 1413,
+          "difference": 0.0006510416666666666,
+          "corrected": 27,
+          "broken": 26
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "scope": "All 66 reference-scored corrected pairs, in existing gallery order. Manual qualitative first-divergence audit; labels are descriptive, not blinded or causal measurements.",
+  "categories": {
+    "highlight": "Clean illustrative grounding/scope case",
+    "supporting": "Related phrase or lexical change, with weaker first-token evidence",
+    "weak": "Lexical echo or equivalent paraphrase only",
+    "other": "No clear prompt-related first-token change",
+    "caution": "Trace has reasoning inconsistencies; exclude from clean examples",
+    "label_error": "Reference answer contradicts the stated problem"
+  },
+  "annotations": [
+    {
+      "case": 1,
+      "category": "weak",
+      "note": "Rate paraphrase: 'for every photo' versus 'per photo'; both already encode the rate."
+    },
+    {
+      "case": 2,
+      "category": "other",
+      "note": "Discourse connective 'So'; subsequent arithmetic changes, not a prompt-specific first token."
+    },
+    {
+      "case": 3,
+      "category": "caution",
+      "note": "Formatting difference. Tuned answer is right but its explanation says to add time to speed before dividing."
+    },
+    {
+      "case": 4,
+      "category": "supporting",
+      "note": "'researching' directly echoes the prompt. Tuned continuation correctly converts two years to months; the verb alone does not explain that conversion."
+    },
+    {
+      "case": 5,
+      "category": "caution",
+      "note": "'orange' names a prompt entity, but tuned reasoning contains a contradictory length relation; baseline also degenerates into repetition."
+    },
+    {
+      "case": 6,
+      "category": "caution",
+      "note": "'costs' introduces the missing base pizza price, but the tuned topping explanation misstates the toppings despite matching the answer."
+    },
+    {
+      "case": 7,
+      "category": "label_error",
+      "note": "Prompt says TWO monitors per 15 students: 8 monitors imply 60 students and 84 cartons (baseline). Reference/tuned answer 168 incorrectly uses one monitor per 15. Not a genuine reasoning correction."
+    },
+    {
+      "case": 8,
+      "category": "other",
+      "note": "Tense change 'is' to 'was'; no stronger prompt grounding at the first token."
+    },
+    {
+      "case": 9,
+      "category": "supporting",
+      "note": "First change is punctuation, followed by '(meat)' and '(vegetable)': useful explicit category binding, but not a content-token divergence itself."
+    },
+    {
+      "case": 10,
+      "category": "supporting",
+      "note": "Jessica → Justin starts with the given age and preserves the six-year gap. Both names occur in the prompt, so this is better fact binding, not greater lexical overlap."
+    },
+    {
+      "case": 11,
+      "category": "highlight",
+      "note": "Period → 'red' labels the computed 60 as red roses; tuned continuation applies the next fraction to the remaining 20, not 80."
+    },
+    {
+      "case": 12,
+      "category": "highlight",
+      "note": "'x' → 'seeds' keeps the physical quantity explicit and distributes three seeds into the first three pots, leaving one for the fourth."
+    },
+    {
+      "case": 13,
+      "category": "caution",
+      "note": "'after' introduces more chronology, but tuned text says missing toys are now present; do not present as an unambiguously sound trace."
+    },
+    {
+      "case": 14,
+      "category": "caution",
+      "note": "Formatting divergence; tuned blue-marble calculation succeeds but its incidental red-marble statements are wrong."
+    },
+    {
+      "case": 15,
+      "category": "supporting",
+      "note": "'of gasoline' adds the prompt's substance label. First token is 'of'; the corrected rate computation occurs later."
+    },
+    {
+      "case": 16,
+      "category": "other",
+      "note": "'if' introduces an algebraic strategy. This is not direct lexical grounding at the divergence."
+    },
+    {
+      "case": 17,
+      "category": "supporting",
+      "note": "'each day' preserves day-specific distances instead of incorrectly accumulating successive days. Relevant scope word, not a rare content noun."
+    },
+    {
+      "case": 18,
+      "category": "highlight",
+      "note": "Whitespace → 'handful' restores the prompt's counting unit; 15 handfuls × 5 berries gives 75 rather than confusing handfuls with berries."
+    },
+    {
+      "case": 19,
+      "category": "other",
+      "note": "'the' → 'they' is grammatical; subtracting wins already achieved happens later."
+    },
+    {
+      "case": 20,
+      "category": "other",
+      "note": "Parenthesis introduces arithmetic grouping; not a prompt-related content token."
+    },
+    {
+      "case": 21,
+      "category": "weak",
+      "note": "'a day' → 'per day' is a rate paraphrase; both initially encode the same rate."
+    },
+    {
+      "case": 22,
+      "category": "weak",
+      "note": "Currency marker instead of whitespace; baseline also states dollars. Later cost arithmetic differs."
+    },
+    {
+      "case": 23,
+      "category": "supporting",
+      "note": "'full price for 1 and half price for the other' explicitly preserves the offer's two-item structure; first token 'full' is a constraint-specific qualifier."
+    },
+    {
+      "case": 24,
+      "category": "supporting",
+      "note": "First token is article 'a', followed by 'profit'; the meaningful correction distinguishes net profit from box-office revenue."
+    },
+    {
+      "case": 25,
+      "category": "weak",
+      "note": "Dollar sign makes currency explicit, but baseline already says dollars; insurance sign correction is later."
+    },
+    {
+      "case": 26,
+      "category": "highlight",
+      "note": "Period → 'one' qualifies the $20 copying cost as per manuscript, so the tuned trace multiplies by ten copies."
+    },
+    {
+      "case": 27,
+      "category": "highlight",
+      "note": "'the' → 'each' preserves per-unicorn scope; tuned trace includes all six unicorns instead of reporting one unicorn's flowers."
+    },
+    {
+      "case": 28,
+      "category": "supporting",
+      "note": "'On Monday' anchors chronology and tuned trace adds Cleo's earlier nine marbles; first token alone is a preposition."
+    },
+    {
+      "case": 29,
+      "category": "other",
+      "note": "'is' → 'means' is a paraphrase; retaining all people in the total happens later."
+    },
+    {
+      "case": 30,
+      "category": "caution",
+      "note": "'distance' is prompt-related, but tuned opening introduces unsupported 'same in both directions'; not a clean exemplar."
+    },
+    {
+      "case": 31,
+      "category": "supporting",
+      "note": "'dogs' labels the 40 explicitly; tuned later distinguishes puppies from original dogs. Both continuations initially compute female dogs correctly."
+    },
+    {
+      "case": 32,
+      "category": "caution",
+      "note": "'infected' is prompt-related, but tuned applies the malaria vaccine reduction to both diseases. Correct-by-reference is not a sound clean mechanism example; overlap is also unspecified."
+    },
+    {
+      "case": 33,
+      "category": "weak",
+      "note": "'he' → 'Hasan' replaces a clear pronoun with its named referent. Both are equally grounded; later ounces-to-plates conversion matters."
+    },
+    {
+      "case": 34,
+      "category": "supporting",
+      "note": "Article 'a' leads to 'a day', retaining temporal units; tuned separates seven TV days from three gaming days."
+    },
+    {
+      "case": 35,
+      "category": "caution",
+      "note": "'another' marks separate rolls, but tuned explicitly says 1+5=6 rolls before arriving at the correct final answer."
+    },
+    {
+      "case": 36,
+      "category": "highlight",
+      "note": "Comma → 'invited' echoes the prompt and leads immediately to 'plus Aku': four invited friends are not all five children."
+    },
+    {
+      "case": 37,
+      "category": "other",
+      "note": "'So' → 'To' changes the reasoning transition; subtract/add error corrections occur afterward."
+    },
+    {
+      "case": 38,
+      "category": "other",
+      "note": "'let' introduces an algebraic variable. Better strategy, but not a directly prompt-specific token."
+    },
+    {
+      "case": 39,
+      "category": "supporting",
+      "note": "'wheel' repeats a concrete prompt noun, but the later correction is an addition error; no clear link between the noun and success."
+    },
+    {
+      "case": 40,
+      "category": "supporting",
+      "note": "'dollars' labels the variable with the correct unit; missing backer multiplicities are restored later, not at the divergence."
+    },
+    {
+      "case": 41,
+      "category": "other",
+      "note": "'need' → 'multiply' removes generic setup language; both versions already specify the same multiplication."
+    },
+    {
+      "case": 42,
+      "category": "other",
+      "note": "'approximately' avoids premature integer rounding. Numerical precision rather than prompt-specific lexical content."
+    },
+    {
+      "case": 43,
+      "category": "weak",
+      "note": "'First' → 'James' is a prompt name versus discourse marker, but baseline immediately names James too; weak mechanism evidence."
+    },
+    {
+      "case": 44,
+      "category": "other",
+      "note": "'1 month' versus 'a month'; both use four weeks. Stock accounting changes later."
+    },
+    {
+      "case": 45,
+      "category": "caution",
+      "note": "List-marker divergence; tuned contains an incorrect initial equation for Dad before a correct later enumeration."
+    },
+    {
+      "case": 46,
+      "category": "other",
+      "note": "Formatting divergence; break-time arithmetic changes afterward. Not first-token lexical evidence."
+    },
+    {
+      "case": 47,
+      "category": "highlight",
+      "note": "'The' → 'Each' starts 'Each week', retaining the weekly scope and then multiplying 14 hours by 24 weeks."
+    },
+    {
+      "case": 48,
+      "category": "other",
+      "note": "'So' introduces the age calculation; retaining starting age happens later."
+    },
+    {
+      "case": 49,
+      "category": "weak",
+      "note": "'Mont' is a subtoken of Monty, replacing 'to'; both versions already refer to the same customer. Later removal of invented side charges matters."
+    },
+    {
+      "case": 50,
+      "category": "supporting",
+      "note": "'temperature' explicitly names the queried quantity, but both traces already plan to average temperatures. Arithmetic improves later; weaker than grouping examples."
+    },
+    {
+      "case": 51,
+      "category": "supporting",
+      "note": "'so far' identifies seven vegetables as a subtotal, preventing its reuse as the carrot count. First token alone is a connective."
+    },
+    {
+      "case": 52,
+      "category": "supporting",
+      "note": "'per ounce' explicitly preserves the rate denominator; tuned later scales the mixture to half an ounce."
+    },
+    {
+      "case": 53,
+      "category": "highlight",
+      "note": "'let' → 'Samantha' replaces generic setup with the prompt fact 'Samantha did 2 loads'; tuned preserves two washers and three dryers."
+    },
+    {
+      "case": 54,
+      "category": "other",
+      "note": "Pronoun change precedes correct day-to-week aggregation; no direct content-token grounding."
+    },
+    {
+      "case": 55,
+      "category": "weak",
+      "note": "'years' labels an age, but that age is incidental to the ratio calculation. Lexical echo alone is not useful grounding."
+    },
+    {
+      "case": 56,
+      "category": "other",
+      "note": "'we' → 'multiply' starts the same operation more directly; handling the mixed number changes later."
+    },
+    {
+      "case": 57,
+      "category": "caution",
+      "note": "Preposition change, with tuned prose treating relative babysitting frequencies as absolute counts; not a clean exemplar."
+    },
+    {
+      "case": 58,
+      "category": "label_error",
+      "note": "For equal race distance, speed ratio 3/4 implies time ratio 4/3. Baseline Rickey time 30 is mathematically correct; reference/tuned 40 reverses this relation."
+    },
+    {
+      "case": 59,
+      "category": "supporting",
+      "note": "'that means the other half' foregrounds the remaining-half relation, but first token alone is a demonstrative."
+    },
+    {
+      "case": 60,
+      "category": "supporting",
+      "note": "'per gallon' makes the sale-price unit explicit before subtracting the two prices; the unit is also present in the shared prefix."
+    },
+    {
+      "case": 61,
+      "category": "highlight",
+      "note": "'each' → 'bikes' binds the first calculation to one machine category: 20×10 bikes, separately from 20×5 treadmills/ellipticals."
+    },
+    {
+      "case": 62,
+      "category": "supporting",
+      "note": "Dollar marker begins a revenue-focused continuation, avoiding confusing $24 medium-lemonade revenue with 24 cups. Marker alone is weak evidence."
+    },
+    {
+      "case": 63,
+      "category": "other",
+      "note": "'is' → 'lasted' is a grammatical change; converting full days to hours is later."
+    },
+    {
+      "case": 64,
+      "category": "other",
+      "note": "'So' is a discourse change; stepwise addition corrects 2.99 to 3.00."
+    },
+    {
+      "case": 65,
+      "category": "other",
+      "note": "Comma versus period; later multiplication uses apple trees instead of all trees."
+    },
+    {
+      "case": 66,
+      "category": "caution",
+      "note": "'Since' is a connective. Tuned misassigns store prices and savings in prose despite ultimately producing 42−10=32."
+    }
+  ]
+}
